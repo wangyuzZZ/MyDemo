@@ -1,0 +1,19 @@
+@charset "UTF-8";
+form{
+    margin:  20% auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+form>input{
+    padding: 20px 0;
+    width: 33%;
+    font-size: 20px
+}
+form>input:first-child{
+    height: 50px;
+    width: 98%;
+}
+form>input:last-child{
+    width: 99%;
+}

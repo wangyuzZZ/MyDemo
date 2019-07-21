@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.main{
+    /* background: rgb(255, 255, 255); */
+    padding: 5% 12.5% !important;
+}
+.main-box{
+    padding: 5% 0;
+}
+.title{
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+}
+.title>h2{
+    color: rgb(252,152,42);
+    margin-right: 1%;
+}
+.title>h3{
+    color: rgb(153, 153, 153);
+}
+.title-des{
+    display: block;
+    margin: 5% 0;
+    font-size: 17px;
+    color: rgb(153, 153, 153);
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 0 !important;
+}

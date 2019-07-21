@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.main{
+    box-sizing: border-box;
+    padding: 0 12.5% !important;
+    margin: 5% 0 5% 0 !important;
+}
+.m-content{
+    box-sizing: border-box;
+    padding-bottom: 4%;
+    border-bottom: 1px dotted rgb(147, 147, 147)
+}
+.paging{
+    display: block;
+    text-align:center ;
+    font-size: 18px;
+    color: white;
+    color: black;
+}
+.paging>span:first-child{
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background: rgb(252,155,42);
+}
+.paging>span:last-child{
+    cursor: pointer;
+    background: rgb(252,155,42);
+    color: white;
+    border: 1px solid white;
+}
+.m-right{
+    box-sizing: border-box;
+}
+.m-title{
+    align-items: center;
+    display: flex;
+}
+.m-title>h2{
+    color: rgb(252,155,42);
+}

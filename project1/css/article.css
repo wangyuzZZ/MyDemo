@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.main{
+    box-sizing: border-box;
+    padding: 0 12.5% !important;
+    margin: 5% 0 5% 0 !important;
+}
+.article-box{
+    text-align: center;
+}
+.article-box>p{
+    line-height: 30px;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 2px;
+    color: rgb(127, 127, 127);
+}
+.article-box>button{
+    margin: 2% auto;
+    background: rgb(255, 152, 42);
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+}
+.article-title{
+    font-size: 18px;
+    letter-spacing: 2px;
+}

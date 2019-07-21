@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.main{
+    box-sizing: border-box;
+    margin: 5% 0 5% 0 !important;
+    text-align: center;
+}
+.shop{
+    margin: 1% auto;
+    padding: 1%;
+    width: 1488px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(221, 221, 221);
+}
+@media screen and (max-width:1488px){
+    .shop{
+        width:1200px !important;
+    }
+}
+.shop-name{
+    display: flex;
+    align-items: center;
+}
+.shop-name>img{
+    width: 140px;
+    height: 140px;
+}
+.shop-des-name{
+    font-size: 17px;
+}
+.shop-des-color{
+    color: rgb(160,160,160)
+}
+.shop-price{
+    font-size: 18px;
+    color: rgb(160,160,160);
+}
+.shop-num-btn{
+    font-size: 0;
+}
+.shop-num-btn>span{
+    padding: 10px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid rgb(221, 221, 221);
+}
+.price-sum{
+    font-size: 18px;
+    color: rgb(160,160,160);
+}
+.delete-btn{
+    background: rgb(255,152,142);
+    color: white;
+    padding: 10px 25px;
+}
+.shop-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.shop-end>p{
+    font-size: 20px;
+    color: black;
+}
+.money{
+    background: rgb(255,152,42);
+    font-size: 18px;
+    padding: 15px 45px;
+    color: white;
+}
+.none{
+    text-align: center;
+}
+.backShop{
+    background: rgb(255,152,42);
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none !important;
+}
+.shop-des{
+    text-align: left;
+}

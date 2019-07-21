@@ -1,0 +1,18 @@
+(function(){
+    //回到顶部
+    toTop();
+    //加载尾部
+    foot();
+    //侧边栏
+    sidebar();
+    //加载内容
+    loadgoods();
+    //列表状态切换
+    listbtn();
+    //复选框判断
+    checkbox();
+    //搜索过滤
+    search();
+    //判断登录状态
+    judge();
+})();

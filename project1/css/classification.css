@@ -1,0 +1,137 @@
+@charset "UTF-8";
+.main{
+    margin: 0 0 6%;
+    padding: 0 12.5% !important;
+}
+.content-box{
+    margin-top: 1%;
+    text-align: center !important;
+    transition: all 0.25s linear;
+}
+.content-box:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0,0.1);
+}
+.content-box>a>img{
+    width: 100% !important;
+}
+.content-box>a:nth-child(2){
+    display: block;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+.content-box>a{
+    font-size: 18px;
+    text-decoration: none !important;
+}
+.content-box>p{
+    font-size: 18px !important;
+}
+.content-box>p>span{
+    padding:0 5px ;
+}
+.content-box>p>span:first-child{
+    font-size: 14px;
+    color: rgb(110,110,101);
+}
+.content-box>p>span:last-child{
+    color: rgb(252,155,42) !important;
+}
+.btn{
+    color: white;
+    background: rgb(252,155,42);
+}
+.btn:hover{
+    background: rgb(239, 196, 153);
+}
+
+.content-right{
+    padding: 0 !important;
+    text-align: center;
+}
+.paging{
+    margin-top: 3%;
+    font-size: 18px;
+    color: white;
+    color: black;
+}
+.paging>span:first-child{
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background: rgb(252,155,42);
+}
+.paging>span:last-child{
+    cursor: pointer;
+    background: rgb(252,155,42);
+    color: white;
+    border: 1px solid white;
+}
+.title-img{
+    margin: 2.5% auto;
+}
+.title-img{
+    padding: 0 !important;
+}
+.main-box{
+    font-size: 20px;
+    padding: 0 !important;
+}
+.content-left{
+    text-align: left;
+}
+.content-left>h2{
+    color: rgb(252,155,42);
+}
+.content-left>h4{
+    color: rgb(110,110,101);
+}
+@media screen and (max-width:1200px){
+    .content-left{
+        display: none !important;
+    }
+}
+.sub-list{
+    height: 0;
+    overflow: hidden;
+}
+.list-btn{
+    display: inline-block;
+    cursor: pointer;
+}
+.rotate{  
+    color: red;
+    transform: rotate(90deg) !important;
+}
+.height{
+    height: 100%;
+}
+.form-item{
+    display: inline-block;
+    line-height: 30px;
+    border: 1px solid rgb(110,110,101);
+}
+.search{
+    cursor: pointer;
+    font-size: 20px;
+}
+.form-text{
+    font-size: 16px;
+    color: rgb(110,110,101);
+    display: block;
+    margin: 5% 0 2% 0;
+}
+.list-box{
+    color: rgb(110,110,101);
+    font-size: 18px;
+    padding: 16px 0;
+}
+.price-item{
+    font-size: 16px;
+}
+.none{
+    border: 2px solid rgb(252,155,42);
+    border-radius: 5px;
+    padding: 10% 0;
+}

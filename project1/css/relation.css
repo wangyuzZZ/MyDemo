@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.main{
+    margin-top: 2%;
+    padding: 0 12.5% !important;
+}
+#map{
+    width: 100%;
+    height: 500px;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+.input>input{
+    height: 40px;
+    border: 1px solid rgb(107, 107, 107);
+    width: 49.5%;
+}
+.m-form>textarea{
+    border: 1px solid rgb(107, 107, 107);
+    width: 100%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.m-form>button{
+    padding: 1% 5%;
+    background: rgb(252,152,42);
+    color: white;
+}
+.m-content {
+    margin: 3% auto;
+}
+.icon-btn>span{
+    margin-right: 1%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.mes{
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+    display: none;
+}
+.show{
+    display: block;
+}

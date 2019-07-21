@@ -1,0 +1,13 @@
+{
+    "token":{
+        "username":"admin",
+        "password":"123"
+    },
+    "userinfo": {
+        "nikename":"木子李",
+        "tel":"15228885771",
+        "address":"四川省成都市高新区",
+        "job":"Web前端工程师",
+        "skill":"HTML、CSS、JavaScript、Objective-C、nodeJS"
+    }
+}

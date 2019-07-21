@@ -1,0 +1,79 @@
+@charset "UTF-8";
+#main{
+    padding: 0 !important;
+}
+.main-box{
+    box-sizing: border-box;
+    padding: 5% !important;
+    background: url("https://ccdn.goodq.top/caches/d66d72e92dc9d8b96d26404f9977c15f/aHR0cDovLzVjMmY0MTkwMzk4MTQudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxOS8wMS9kMTM2YmNhMTQzNzc2ZjM5Y2FiNWM2YmVhODQyZmZiNy5qcGc_p_p100_p_3D.jpg")no-repeat;
+    background-size:cover; 
+}
+.boxleft{
+    text-align: center;
+}
+.boxleft>h1{
+    margin: 5% 0 6% 0;
+}
+.boxleft>p{
+    font-size: 18px;
+}
+.industrial{
+    margin: 4% 0;
+    text-align: center;
+    font-weight: bold;
+}
+.industrial>h2{
+    color: rgb(252, 159, 50);
+}
+.industrial>h4{
+    margin: 2% 0 0 0;
+    color: rgb(102, 102, 102)
+}
+.banner-img{
+    margin-bottom: 4%;
+    padding:0 12.5% !important;
+}
+.banbox{
+    padding: 0 !important;
+    overflow: hidden;
+    position: relative;
+    height: 505px;
+}
+.img-box{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: calc(100% * 5);
+    overflow: hidden;
+    height: 505px !important;
+    display: flex;
+    transition: all 0.5s linear;
+}
+.img{
+    box-sizing: border-box;
+    height: 505px;
+    width: calc(100% / 5);
+}
+.btn-imgs{
+    text-align: center;
+}
+.btn-imgs>img{
+    cursor: pointer;
+}
+.banbox{
+    margin: 2% 0;
+}
+/* 
+.honor{
+    margin: 4% 0;
+    text-align: center;
+    font-weight: bold;
+    background: rgb(247, 247, 247)
+}
+.honor>h2{
+    color: rgb(252, 159, 50);
+}
+.honor>h4{
+    margin: 2% 0 0 0;
+    color: rgb(102, 102, 102)
+} */
