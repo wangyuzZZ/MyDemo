@@ -1,0 +1,40 @@
+[{
+
+"img":[
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_01.jpg",
+    "classify":"箱包/BAG" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_02.jpg",
+    "classify":"服装/CLOTHING" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_03.jpg",
+    "classify":"服装/CLOTHING" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_04.jpg",
+    "classify":"鞋履/SHOES" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_05.jpg",
+    "classify":"腕表/WATCH" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_06.jpg",
+    "classify":"珠宝首饰/JEWELLERY" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_07.jpg",
+        "classify":"家居/LIFE" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_08.jpg",
+       "classify":"美妆/BEAUTY" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_09.jpg",
+     "classify":"母婴/MOM&BABY" },
+    { "adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_10.jpg",
+      "classify":"保健品/HEALTH" },
+    { "adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_11.jpg",
+      "classify":"食品/FOOD" },
+    { "adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_12.jpg",
+    "classify":"运动户外/OUTDOOR" },
+    { "adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_13.jpg",
+   "classify":"3C智能/INTELLIGENT" },
+    {"adrr":"http://pic16.secooimg.com/imagesNew/featuresPic/ShopsLocated/pic_14.jpg",
+    "classify":"中国精品/ORIENTAL VER" } ],
+    "information":[{
+    "send":"发申请入驻邮件要求",
+    "emialname":"类目—品牌—公司名称，如“ 服装—香奈儿—XX公司”",
+    "emial":"zhaoshang@seco.com",
+    "emialcont":"本人详细信息（联系人，联系地址，联系电话）"
+    }
+]
+   }
+]

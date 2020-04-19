@@ -1,0 +1,557 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'iconfont';
+    /* project id 1169611 */
+    src: url('//at.alicdn.com/t/font_1169611_34y4048yo34.eot');
+    src: url('//at.alicdn.com/t/font_1169611_34y4048yo34.eot?#iefix') format('embedded-opentype'),
+        url('//at.alicdn.com/t/font_1169611_34y4048yo34.woff2') format('woff2'),
+        url('//at.alicdn.com/t/font_1169611_34y4048yo34.woff') format('woff'),
+        url('//at.alicdn.com/t/font_1169611_34y4048yo34.ttf') format('truetype'),
+        url('//at.alicdn.com/t/font_1169611_34y4048yo34.svg#iconfont') format('svg');
+}
+
+html {
+    min-width: 1100px;
+}
+
+//   筛选列表
+.taxonomic-selection {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #999999
+}
+
+.select-title:hover {
+
+    color: #e93b39
+}
+
+.bag-two:hover {
+    color: #e93b39;
+    background: white
+}
+
+.bag-two {
+    width: 60px;
+    text-align: center
+}
+
+.selection {
+    padding-top: 20px;
+    display: flex
+}
+
+.select-two li:hover {
+
+    color: black;
+    text-decoration: underline
+}
+
+.select-list li {
+    cursor: pointer;
+}
+
+.selection span {
+    cursor: pointer;
+}
+
+.select-title {
+    display: inline-block;
+    width: 45px;
+}
+
+.bag-se {
+    position: absolute;
+    top: 224px;
+    z-index: 1000;
+    width: 80%;
+}
+
+.select-two {
+    background: white;
+    height: 144px;
+    display: none
+}
+
+.bag-selec .select-list:hover .select-two {
+    display: block
+}
+
+.select-two li {
+    width: 9.9%;
+    float: left;
+    margin-bottom: 8px;
+    height: 20px;
+    line-height: 26px;
+    cursor: pointer;
+    margin-left: 10px
+}
+
+.chek {
+    color: black;
+    text-decoration: underline
+}
+
+.selection-cont {
+    box-shadow: rgb(204, 204, 204) 0px 2px 5px;
+    width: 80%;
+    margin: 23px auto;
+    font-size: 12px;
+    color: #999999;
+    user-select: none;
+}
+
+.brand {
+    display: flex;
+    border-bottom: 1px dashed #ededed;
+    width: 100%;
+}
+
+.brand-title {
+    background: #f5f5f5;
+    width: 6%;
+    padding: 20px
+}
+
+.brands {
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.brands span {
+    display: inline-block;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.brands span:hover {
+    color: #e93b39
+}
+
+.brand.hide{
+    display: none;
+}
+
+.check-box.hide{
+    display: none;
+}
+
+/* 包袋商城 */
+.bag-body {
+    width: 100%;
+    background: #f5f5f5;
+    padding-bottom: 40px
+}
+
+.bag-sp {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: rgb(204, 204, 204) 0px 2px 5px;
+}
+
+.synthesize {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 30px;
+    user-select: none;
+}
+
+.store {
+    background: white;
+}
+
+.top-line {
+    border-top: 2px solid #e93b39
+}
+
+.store span {
+    font-size: 18px;
+    color: #999999;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.store span:hover {
+    color: #e93b39
+}
+
+/* 综合筛选 */
+ul {
+    list-style: none;
+}
+
+.filtrate {
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.filtrate li {
+    font-family: 'iconfont';
+    color: gray;
+    background: white;
+    border: 1px solid #f5f5f5;
+    margin-right: 1px;
+}
+
+.filtrate .on {
+    background: #e93b39;
+    color: white;
+}
+
+.filtrate li:hover {
+    border: 1px solid #e93b39
+}
+
+.filtrate span {
+    font-size: 12px;
+    display: inline-block;
+    transition: transform .25s linear;
+}
+
+.filtrate li.reture span {
+    transform: rotate(180deg)
+}
+
+
+.sort-box li {
+    padding-left: 4px;
+}
+
+.err{
+    margin: 30px;
+}
+
+/*价格之间筛选 */
+.price .number {
+    width: 47px;
+    height: 16px;
+    position: relative;
+    bottom: 2px;
+}
+
+.butn {
+    position: absolute;
+    cursor: pointer;
+    padding-top: 10px;
+    display: none;
+    background-color: #f5f5f5;
+}
+
+.price {
+    width: 124px;
+    padding: 10px;
+    position: relative;
+}
+
+.butn span {
+    display: inline-block;
+
+    width: 40px;
+    font-size: 13px;
+    padding: 4px;
+    margin: 0 5px 8px 5px;
+    box-sizing: border-box;
+    border: 1px solid white
+}
+
+.butn>span:hover {
+    border: 1px solid #e93b39
+}
+
+.butn .empty {
+    background: white;
+    text-align: center;
+    margin-right: 13px;
+}
+
+.butn .enter {
+    background: #e93b39;
+    color: white;
+    text-align: center
+}
+
+/* 勾选 */
+.cek {
+    font-size: 13px;
+    color: gray
+}
+
+.cek form input {
+    vertical-align: middle
+}
+
+// 搜索框
+.each {
+    margin-left: 15px;
+    display: flex
+}
+
+.each span {
+    height: 22px;
+    border: 1px solid #ededed;
+    background: white;
+}
+
+.each .seek {
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.yes {
+    height: 22px;
+    width: 40px;
+    font-size: 12px;
+    color: gray;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #ededed;
+    background: white;
+    cursor: pointer;
+
+}
+
+// 商品列表
+.commodity {
+    background: white
+}
+
+.comm-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.comm-list li {
+    width: 18.999%;
+    cursor: pointer;
+    margin: 19px;
+    border: 2px solid white;
+    padding: 7px;
+}
+
+// 列表图片
+.comm-img {
+    width: 200px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.comm-img img {
+    width: 100%
+}
+
+// 超链接
+.comm-title {
+    display: block;
+    font-size: 12px;
+    color: #999999;
+    padding: 8px 0;
+}
+
+.money {
+    font: bold 12px/16px "Tahoma"
+}
+
+// 收藏图标
+.collect {
+    font-family: "iconfont";
+    font-size: 12px;
+    color: #999999
+}
+
+// 销售
+.comm-list li span {
+    width: 30px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    margin: 7px 0;
+}
+
+.pri .collect {
+    display: none
+}
+
+.comm-list li:hover .collect {
+    display: block;
+
+}
+
+.collect:hover {
+    color: #e93b39
+}
+
+//降价
+.comm-list li .depreciate {
+    background: #e93b39
+}
+
+.pri {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.comm-list li:hover {
+    border: 2px solid #ededed;
+}
+
+.skip {
+    height: 44px;
+    display: inline-block;
+    overflow: hidden;
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+// 分页
+.paging {
+    display: flex;
+    justify-content: center;
+    background: white;
+    font-size: 12px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.paging-butn:hover {
+    border: 1px solid #e93b39
+}
+
+.paging a:hover {
+    border: 1px solid #e93b39;
+    text-decoration: none
+}
+
+.paging-butn {
+    width: 50px;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #999999;
+    cursor: pointer;
+
+}
+
+.paging span {
+    display: inline-block;
+    margin: 0 5px
+}
+
+.paging-num {
+    border: 1px solid #999999;
+    width: 30px;
+    text-align: center;
+    height: 22px;
+}
+
+.paging a {
+    display: inline-block;
+    width: 25px;
+    height: 22px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #999999;
+    margin: 0 6px;
+}
+
+
+
+
+// 畅销排行
+.sell-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sell-list li {
+    width: 12%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.sell-img {
+    width: 150px;
+    border: 1px solid #eeee;
+    height: 150px;
+}
+
+.sell-img img {
+    width: 100%
+}
+
+.sell-connect {
+    height: 44px;
+    overflow: hidden;
+    font-size: 12px;
+    margin-top: 10px
+}
+
+.sell-connect a:hover {
+
+    color: black
+}
+
+.sell-connect a {
+    display: inline-block;
+    width: 160px;
+    color: #999999
+}
+
+.sell {
+    margin-top: 50px;
+    background: white
+}
+
+.sell-text {
+    color: #333;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 0 0px 68px;
+}
+
+// 尾部搜索
+.main-foot {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0
+}
+
+.foot-each {
+    height: 31px;
+    border: 2px solid #463b7f;
+}
+
+.foot-seach {
+    height: 27px;
+    line-height: 20px;
+    padding: 2px 10px 2px 10px;
+    border: 0;
+    width: 520px;
+}
+
+.notarize {
+    text-align: center;
+    line-height: 33px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 2px 1px #390010;
+    font-family: "microsoft yahei";
+    width: 69px;
+    height: 35px;
+    background: #5b4f9d;
+    cursor: pointer;
+}
